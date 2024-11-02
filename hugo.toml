@@ -3,6 +3,7 @@ baseURL = "https://MiladMohammadi.com"
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
 languageCode = "en-us"
+languageDirection = 'ltr'
 # MissingTranslationPlaceholders = false
 #defaultContentLanguageInSubdir = true
 
@@ -159,10 +160,43 @@ theme = "DoIt"
 [params.page]
     # Page style ("normal", "wide")
     pageStyle = "wide"
-    # wether to enable series navigation
-    seriesNavigation = true
     # whether to enable the fontawesome extended syntax
-    fontawesome = true
+    #fontawesome = true
+        # DoIt NEW | 0.2.0 whether to hide a page from home page
+    hiddenFromHomePage = false
+    # DoIt NEW | 0.2.0 whether to hide a page from search results
+    hiddenFromSearch = false
+    # DoIt NEW | 0.2.0 whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = false
+    # DoIt NEW | 0.2.0 whether to enable the ruby extended syntax
+    ruby = true
+    # DoIt NEW | 0.2.0 whether to enable the fraction extended syntax
+    fraction = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    # DoIt NEW | 0.2.14 configure the link to the source file of the post
+    linkToSource = false
+    # "https://github.com/user/repo/blob/main/{path}"
+    # DoIt NEW | 0.2.13 configure the link to edit the post
+    linkToEdit = false
+    # "https://github.com/user/repo/edit/main/{path}"
+    # "https://gitlab.com/user/repo/-/edit/main/{path}"
+    # "https://bitbucket.org/user/repo/src/main/{path}?mode=edit"
+    # DoIt NEW | 0.2.14 configure the link to report issue for the post
+    linkToReport = false
+    # "https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
+    # DoIt NEW | 0.2.4 whether to show the full text content in RSS
+    rssFullText = false
+    # DoIt NEW | 0.2.13 whether to enable series navigation
+    seriesNavigation = true
+    # whether to enable last modified time
+    enableLastMod = true
+    # whether to enable word count
+    enableWordCount = true
+    # whether to enable reading time estimation
+    enableReadingTime = true
     
     [params.page.math]
       enable = true
