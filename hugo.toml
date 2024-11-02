@@ -58,7 +58,7 @@ theme = "DoIt"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
-  dateFormat = "2024-10-22"
+  dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # images = ["/images/avatar.webp"]
   images = ["/images/coding.png"]
@@ -218,8 +218,10 @@ theme = "DoIt"
       copy = false
       maxShownLines = 100
     [params.page.share]
-      enable = true
-      Twitter = true
+	enable = true
+	Twitter = true
+	Telegram = true
+	Pinterest = true
     # DoIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
       enable = false
@@ -381,6 +383,12 @@ theme = "DoIt"
     ignoreLocation = false
     useExtendedSearch = false
     ignoreFieldNorm = false
+
+
+[frontmatter]
+  enableGitInfo = true
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  lastmod = [':git', 'lastmod', 'modified', 'date']
 
 # Author config
 [params.author]
