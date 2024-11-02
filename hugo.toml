@@ -3,6 +3,8 @@ baseURL = "https://MiladMohammadi.com"
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
 languageCode = "en-us"
+# MissingTranslationPlaceholders = false
+#defaultContentLanguageInSubdir = true
 
 # website title
 # 网站标题
@@ -41,7 +43,7 @@ theme = "DoIt"
 
 [params]
   # DoIt theme version
-  version = "0.2.X"
+  version = "0.3.X"
   # website title
   title = "Milad Mohammadi Personal WebSite"
   # site description
@@ -66,18 +68,10 @@ theme = "DoIt"
   # [Experimental] Bundle js
   bundle = false
 
-  [params.page.math]
-    enable = true
-    blockLeftDelimiter = ""
-    blockRightDelimiter = ""
-    inlineLeftDelimiter = ""
-    inlineRightDelimiter = ""
-    copy_text = true
-    mhchem = true
-
-  [params.home]
+[params.home]
     # amount of RSS pages
     rss = 10
+
     # Home page profile
     [params.home.profile]
       enable = true
@@ -96,12 +90,17 @@ theme = "DoIt"
       social = true
       # disclaimer (HTML format is supported)
       disclaimer = "<p>"
+
     # Home page posts
     [params.home.posts]
       enable = false
       # special amount of posts in each home posts page
       paginate = 7
-    [params.social]
+      # DoIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+
+[params.social]
       GitHub = "MiladMohammadi72"
       Linkedin = "MilaMohammadi1993"
       Twitter = "##"
@@ -113,7 +112,7 @@ theme = "DoIt"
       Email = "MiladMohammadi_1993@yahoo.com"
       RSS = true
 
-  [params.footer]
+[params.footer]
     enable = true
     # Custom content (HTML format is supported)
     custom = ''
@@ -133,8 +132,8 @@ theme = "DoIt"
     # license info (HTML format is supported)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # Section (all posts) page config
-  [params.section]
+# Section (all posts) page config
+[params.section]
     # special amount of posts in each section page
     paginate = 20
     # date format (month and day)
@@ -148,8 +147,8 @@ theme = "DoIt"
       days = 30
       maxCount = 10
 
-  # List (category or tag) page config
-  [params.list]
+# List (category or tag) page config
+[params.list]
     # special amount of posts in each list page
     paginate = 20
     # date format (month and day)
@@ -157,13 +156,23 @@ theme = "DoIt"
     # amount of RSS pages
     rss = 10
 
-  [params.page]
+[params.page]
     # Page style ("normal", "wide")
     pageStyle = "wide"
     # wether to enable series navigation
     seriesNavigation = true
     # whether to enable the fontawesome extended syntax
     fontawesome = true
+    
+    [params.page.math]
+      enable = true
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copy_text = true
+      mhchem = true
+
     [params.page.toc]
       # whether to enable the table of the contents
       enable = true
@@ -174,6 +183,56 @@ theme = "DoIt"
     [params.page.code]
       copy = false
       maxShownLines = 100
+    [params.page.share]
+      enable = true
+      Twitter = true
+    # DoIt CHANGED | 0.2.0 Comment config
+    [params.page.comment]
+      enable = false
+    # Gitalk comment config
+    [params.page.comment.gitalk]
+      # DoIt NEW | 0.1.1
+      enable = false
+      owner = ""
+      repo = ""
+      clientId = ""
+      clientSecret = ""
+    # DoIt CHANGED | 0.2.10 Page SEO config
+    [params.page.seo]
+      # image URL
+      images = []
+      # Publisher info
+      [params.page.seo.publisher]
+        name = "Milad Mohammadi"
+        logoUrl = ""
+    # DoIt NEW | 0.2.14 Related content config
+    [params.page.related]
+      enable = true
+      count = 5
+
+# Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
+[params.verification]
+    google = ""
+    bing = ""
+
+# DoIt NEW | 0.2.10 Site SEO config
+[params.seo]
+    # image URL
+    image = ""
+    # thumbnail URL
+    thumbnailUrl = ""
+    # DoIt NEW | 0.4.1
+    # alternate site name in Google search result
+    alternateName = ["Milad Mohammadi - Home Page"]
+
+# DoIt NEW | 0.2.0 Analytics config
+[params.analytics]
+    enable = false
+    # Google Analytics
+    [params.analytics.google]
+      id = ""
+      # whether to anonymize IP
+      anonymizeIP = true
 
 [menu]
   [[menu.main]]
@@ -250,10 +309,12 @@ theme = "DoIt"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+#  taxonomy = ["HTML", "RSS"]
 
+# Options for taxonomies
 #[taxonomies]
-#  tag = "tags"
-#  series = "series"
+#author = "authors"
+#tag = "tags"
 
 [params.search]
   enable = true
@@ -288,10 +349,12 @@ theme = "DoIt"
     ignoreFieldNorm = false
 
 # Author config
-#[author]
-#  name = "Milad Mohammadi"
-#  email = "MiladMohammadi_1993@yahoo.com"
-#  link = "https://github.com/MiladMohammadi72"
+[params.author]
+    name = "Milad Mohammadi"
+    email = ""
+    link = ""
+    avatar = "/images/coding.png"
+    gravatarEmail = ""
 
 # Sitemap config
 [sitemap]
