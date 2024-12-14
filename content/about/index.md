@@ -100,14 +100,15 @@ Considering to my experiences and interests, I have gained over the years, I pla
 
 ## *Interest* :
 
-- AI Tech & Robotics
+- AI
+- Image Processing
 - Embedded Linux Based Systems
 - Setar player
 
 ## *Licenses & Certifications* :
 
-- **Embedded Linux System from Scratch** - Fanavaran Anisa - Issued: Nov.23.2023 - Credential ID: ILH3002469916769
-
+- **Embedded Linux System from Scratch** - Fanavaran Anisa - Granted: Nov.23.2023 - Verification Code: ILH3002469916769
+- **Embedded Linux Development with Buildroot** - Fanavaran Anisa - Granted: Sep.03.2023 - Verification Code: ILH3202409916005
 
 
 
