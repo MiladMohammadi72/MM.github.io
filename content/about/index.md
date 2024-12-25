@@ -7,7 +7,7 @@ lightgallery: true
 math:
   enable: true
 ---
-<div style="width:100vw;position:absolute;margin:0px;left:0;padding:0px 10%">
+<div style="width:100%;position:absolute;margin:0px;left:0;padding:0px 10%">
 
 # *About me* :
 

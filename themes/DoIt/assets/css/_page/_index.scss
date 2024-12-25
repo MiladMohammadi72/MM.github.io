@@ -7,7 +7,25 @@
   padding-right: 4% !important;
   @include blur;
 }
+.home{
+  width: 100%;
+  padding: auto !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px !important;
 
+}
+.special{
+  margin-left: 10% !important;
+}
+.archive{ 
+  position: relative; 
+  width: 100% !important;
+  margin: 0;
+  padding: 3% 20% !important;
+}
 @import "_single";
 @import "_special";
 @import "_archive";
