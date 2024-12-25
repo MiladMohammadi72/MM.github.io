@@ -7,6 +7,7 @@ lightgallery: true
 math:
   enable: true
 ---
+<div style="width:100vw;position:absolute;margin:0px;left:0;padding:0px 10%">
 
 # *About me* :
 
@@ -17,7 +18,7 @@ Considering to my experiences and interests, I have gained over the years, I pla
 
 ## *Work Experience* :
 
-***Embedded Electronic Engineer | Xarrin Advanced Systems | Tehran | Full-time | Jul 2021 – Present.***
+***Embedded Electronic Engineer | Xarrin Advanced Systems | Tehran | Full-time | Jul 2021 – trsent.***
 - Design and Programming BLE-Mesh smart-switch with ESP32 (ESP-IDF).
 - Design and Programming the Simple ZigBee Gateway (SiLabs Coordinator).
 - Design and implementation a ZigBee water-leak sensor (Sleepy End Devices).
@@ -35,43 +36,51 @@ Considering to my experiences and interests, I have gained over the years, I pla
 - Programming the Dot-Matrix LCD For the CWDM Panel with AT91SAM7x (ARM-7).
 - Design Fan Controller Board Schematic and PCB with AT91SAM7x.
 
-## *Technical Skills* :
+## *Technical Skills* : 
 
-- **Programming Languages** :
-    - <pre> C           (Advanced) </pre>
-    - <pre> C++         (Beginner) </pre>
-    - <pre> Qt          (Beginner) </pre>
-- **Linux & Embedded** :
-    - <pre> From Scratch        (Advanced) </pre>
-    - <pre> Linux Kernel        (Intermediate) </pre>
-    - <pre> RT-Linux            (Beginner) </pre>
-    - <pre> LDD                 (Intermediate) </pre>
-    - <pre> Device-Tree         (Beginner) </pre>
-    - <pre> Buildroot           (Intermediate) </pre>
-    - <pre> Yocto               (Beginner) </pre>
-    - <pre> U-boot              (Intermediate) </pre>
-    - <pre> LPIC-1              (Advanced) </pre>
-    - <pre> Bash Script         (Intermediate) </pre>
-    - <pre> CMake & Mason       (Beginner) </pre>
-    - <pre> FreeRTOS            (Intermediate) </pre>
-    - <pre> Git                 (Intermediate) </pre>
-- **Microcontroller** :
-    - <pre> STM32, HAL          (Advanced) </pre>
-    - <pre> ESP32, ESP-IDF      (Advanced) </pre>
-- **Circuit & PCB Design** :
-    - <pre> Altium Designer             (Advanced) </pre>
-    - <pre> Cadence OrCAD/Allegro       (Intermediate) </pre>
-    - <pre> KiCad                       (Beginner) </pre>
-- **Peripherals** :
-    - <pre> UART, SPI, SDIO, I2C, USB </pre>
-    - <pre> Bluetooth, ZigBee, Wi-Fi </pre>
-    - <pre> TCP/IP </pre>
-- **Software** :
-    - <pre> Vim </pre>
-    - <pre> VSCode / PlatformIO </pre>
-    - <pre> Keil </pre>
-    - <pre> STM32CubeIDE </pre>
+<htmL>
+<table> 
+    <tr > 
+        <th></th>
+        <th></th>
+    </tr> 
+    <tr><td ><strong style="font-size:1.2rem;padding:1rem;float:left;">Programming Languages</strong></td></tr>
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>C</li></td ><td>     (Advanced) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;" > <li>C++</li>      </td><td>    (Beginner) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>Qt</li>      </td><td>     (Beginner) </td></tr>  
+    <tr><td><strong style="font-size:1.2rem;padding:1rem;float:left;">Linux & Embedded</strong></td></tr>
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>From Scratch    </li> </td><td>     (Advanced) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>Linux Kernel    </li> </td><td>     (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>RT-Linux        </li> </td><td>     (Beginner) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>LDD            </li> </td><td>      (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>Device-Tree     </li> </td><td>     (Beginner) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> Buildroot       </li> </td><td>     (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> Yocto         </li> </td><td>       (Beginner) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> U-boot        </li>   </td><td>     (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> LPIC-1        </li>  </td><td>      (Advanced) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> Bash Script     </li>  </td><td>    (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> CMake & Mason   </li>  </td><td>    (Beginner) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> FreeRTOS       </li>  </td><td>     (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"><li> Git          </li>  </td><td>       (Intermediate) </td></tr> 
+<tr><td><strong style="font-size:1.2rem;padding:1rem;float:left;">Microcontroller</strong></td></tr>
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td style="width:48%;float:left;"> <li> STM32, HAL      </li></td><td>     (Advanced) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"><td style="width:48%;float:left;"> <li> ESP32, ESP-IDF    </li></td><td>   (Advanced) </td></tr> 
+<tr><td><strong style="font-size:1.2rem;padding:1rem;float:left; ">Circuit & PCB Design</strong></td></tr>
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td style="width:48%;float:left;"> <li> Altium Designer       </li></td><td>       (Advanced) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td style="width:48%;float:left;"> <li> Cadence OrCAD/Allegro     </li></td><td>   (Intermediate) </td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td style="width:48%;float:left;"> <li> KiCad               </li></td><td>         (Beginner) </td></tr> 
+<tr><td><strong style="font-size:1.2rem;padding:1rem;float:left; ">Peripherals</strong></td></tr>
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td> <li> UART, SPI, SDIO, I2C, USB </li></td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"><td> <li> Bluetooth, ZigBee, Wi-Fi </li></td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td> <li> TCP/IP </td></tr> 
+<tr><td><strong style="font-size:1.2rem;padding:1rem;float:left; ">Software</strong></td></tr>
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td> <li> Vim </li></td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td> <li> VSCode / PlatformIO </li></td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td> <li> Keil </li></td></tr> 
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td> <li> STM32CubeIDE </li></td></tr> 
 
+</table>
+</html>
 
 ## *Education* :
 
@@ -109,7 +118,7 @@ Considering to my experiences and interests, I have gained over the years, I pla
 
 - **Embedded Linux System from Scratch** - Fanavaran Anisa - Granted: Nov.23.2023 - Verification Code: ILH3002469916769
 - **Embedded Linux Development with Buildroot** - Fanavaran Anisa - Granted: Sep.03.2023 - Verification Code: ILH3202409916005
-
+</div>
 
 
 
