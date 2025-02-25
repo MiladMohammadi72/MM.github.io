@@ -1,0 +1,69 @@
+html.dark {
+  --bgColor-default: #1E1E1E !important;
+  --bgColor-secondary: #252526 !important;
+
+}
+.page {
+  position: relative; 
+  width: 80%;
+  margin: 0;
+  padding-top: $header-height;
+  padding-left: 6% !important;
+  padding-right: 6% !important;
+  @include blur;
+}
+.home{
+  width: 100%;
+  padding: auto !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px !important;
+
+}
+.special{
+  margin-left: 10% !important;
+}
+.archive{ 
+  position: relative; 
+  width: 100% !important;
+  margin: 0;
+  padding: 3% 20% !important;
+}
+@media only screen and (max-width: 1500px) {
+  .page {
+    position: relative !important; 
+    width: 80% !important; 
+    margin: 0 !important;
+    padding-top: $header-height;
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+    @include blur;
+  }
+  .home{
+    width: 100% !important;
+    padding: auto !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding: 0px !important;
+  
+  }
+  .special{
+    margin-left: 10% !important;
+  }
+  .archive{ 
+    position: relative !important; 
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 3% 20% !important;
+  }
+}
+@import "_single";
+@import "_special";
+@import "_archive";
+@import "_home";
+// @import "_404";
+@import "_taxonomy";
