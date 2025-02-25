@@ -44,7 +44,7 @@ theme = "DoIt"
 
 [params]
   # DoIt theme version
-  version = "0.3.X"
+  version = "0.4.X"
   # website title
   title = "Milad Mohammadi Personal WebSite"
   # site description
