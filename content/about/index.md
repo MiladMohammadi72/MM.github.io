@@ -7,7 +7,7 @@ lightgallery: true
 math:
   enable: true
 ---
-<div style="width:100%;position:absolute;margin:0px;left:0;padding:0px 10%">
+
 
 # *About me* :
 
@@ -36,18 +36,21 @@ Considering to my experiences and interests, I have gained over the years, I pla
 - Programming the Dot-Matrix LCD For the CWDM Panel with AT91SAM7x (ARM-7).
 - Design Fan Controller Board Schematic and PCB with AT91SAM7x.
 
+
+
+
 ## *Technical Skills* : 
 
 <htmL>
-<table> 
-    <tr > 
+<table>
+    <tr >
         <th></th>
         <th></th>
     </tr> 
     <tr><td ><strong style="font-size:1.2rem;padding:1rem;float:left;">Programming Languages</strong></td></tr>
     <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>C</li></td ><td>     (Advanced) </td></tr> 
     <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;" > <li>C++</li>      </td><td>    (Beginner) </td></tr> 
-    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>Qt</li>      </td><td>     (Beginner) </td></tr>  
+    <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>Qt</li>      </td><td>     (Beginner) </td></tr>
     <tr><td><strong style="font-size:1.2rem;padding:1rem;float:left;">Linux & Embedded</strong></td></tr>
     <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>From Scratch    </li> </td><td>     (Advanced) </td></tr> 
     <tr  style="padding:0px 0px 0px 4rem;float:left;width:100%;"> <td  style="width:48%;float:left;"> <li>Linux Kernel    </li> </td><td>     (Intermediate) </td></tr> 

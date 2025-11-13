@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Milad Mohammadi</title>
-        <link>https://MiladMohammadi.com/</link>
+        <link>http://localhost:1313/</link>
         <description>Embedded System and Electronic</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2024 22:24:53 -0800</lastBuildDate>
-            <atom:link href="https://MiladMohammadi.com/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

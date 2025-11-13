@@ -584,6 +584,9 @@ optimizeImages = true
       Trello = false
       Mix = false
       Mastodon = false
+    # PlantUML 在线渲染服务器
+    [params.page.plantuml]
+      server = "https://www.plantuml.com/plantuml"
 
     # instant.page 设置
     [params.page.instantpage]
@@ -889,8 +892,8 @@ optimizeImages = true
 
 # {{< link "https://gohugo.io/content-management/urls#permalinks" "Permalinks 配置" >}}
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  # posts = ":year/:month/:contentbasename"
+  posts = ":contentbasename"
 
 # {{< link "https://gohugo.io/about/hugo-and-gdpr/" "隐私信息配置" >}}
 [privacy]

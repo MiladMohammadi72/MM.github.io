@@ -581,6 +581,9 @@ Please open the code block below to view the complete sample configuration {{< f
       Trello = false
       Mix = false
       Mastodon = false
+    # server for PlantUML online rendering
+    [params.page.plantuml]
+      server = "https://www.plantuml.com/plantuml"
 
     # instant.page config
     [params.page.instantpage]
@@ -887,8 +890,8 @@ Please open the code block below to view the complete sample configuration {{< f
 
 # {{< link "https://gohugo.io/content-management/urls#permalinks" "Permalinks config" >}}
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  # posts = ":year/:month/:contentbasename"
+  posts = ":contentbasename"
 
 # {{< link "https://gohugo.io/about/hugo-and-gdpr/" "Privacy config" >}}
 [privacy]
