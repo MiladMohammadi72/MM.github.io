@@ -260,7 +260,7 @@ theme = "DoIt"
 
 # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
 [params.verification]
-    google = ""
+    google = "google-site-verification=rjjhCyu3SHDiEV_b6datWXwNKqhvk2EbgYTo0Pil0Qc"
     bing = ""
 
 # DoIt NEW | 0.2.10 Site SEO config
