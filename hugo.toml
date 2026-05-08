@@ -48,9 +48,9 @@ theme = "DoIt"
   # website title
   title = "Milad Mohammadi Personal WebSite"
   # site description
-  description = "Embedded System and Electronic"
+  description = "Milad Mohammadi - Embedded Systems Engineer"
   # site keywords
-  keywords = ["linux", "kernel", "Electronic", "Embedded", "MicroController"]
+  keywords = ["Milad Mohammadi", "linux", "kernel", "Embedded Systems", "Electronic", "MicroController"]
   # site default theme ("light", "dark", "black", "auto")
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
@@ -419,7 +419,7 @@ theme = "DoIt"
 
 # Sitemap config
 [sitemap]
-  changefreq = "daily"
+  changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 1
 
