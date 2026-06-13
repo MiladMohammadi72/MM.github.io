@@ -11,30 +11,33 @@ math:
 
 # *About me* :
 
-Currently, I am working as an Embedded Electronic Engineer and Firmware Developer. 
-Considering to my experiences and interests, I have gained over the years, I plan to enter the field of **Embedded System Engineer** and **Linux Kernel Development**.
+Embedded Systems Engineer with over 7 years of experience in hardware design and firmware development for IoT devices (ESP32, STM32). Strong background in C programming, wireless protocols (ZigBee, BLE), and PCB design. Currently, I am expanding my expertise into Embedded Linux and Kernel development through specialized certifications, seeking to transition into a Linux-centric embedded role.
 
 ---
 
 ## *Work Experience* :
 
-***Embedded Electronic Engineer | Xarrin Advanced Systems | Tehran | Full-time | Jul 2021 – trsent.***
-- Design and Programming BLE-Mesh smart-switch with ESP32 (ESP-IDF).
-- Design and Programming the Simple ZigBee Gateway (SiLabs Coordinator).
-- Design and implementation a ZigBee water-leak sensor (Sleepy End Devices).
-- Redesign and bug fixing Home Automation ZigBee Based systems (Smart-Switch, Smart-Dimmer, Smart-Plug, …).
+***Embedded Electronic Engineer | Novin Electronics Wall Pasargad | Tehran | Part-time | Aug 2025 – Present.***
+- Developed and debugged ESP32-based firmware for a DP Air Purifier, implementing WebSocket protocol for real-time web server communication. (ESP32-Arduino).
+- Redesigned the main PCB of the DP Air Purifier, improving layout efficiency.
+
+
+***Embedded Electronic Engineer | Xarrin Advanced Systems | Tehran | Full-time | Jul 2021 – July 2025.***
+- Designed and implemented BLE-Mesh smart-switch firmware using ESP32 (ESP-IDF) for wireless home automation control.
+- Developed a ZigBee Gateway using a Silicon Labs MGM210p Module.
+- Designed a ZigBee water-leakage sensor with low power consumption about ~15uA using ZigBee sleepy end device polling intervals.
+- Redesigned and debug ZigBee-based IoT systems (Smart-Switch, Dimmer, Smart-Plug), Debugged and resolved stability issues.
 
 ***Electronic Engineer | Nove | Tehran | Full-time | Dec 2020 - Jun 2021.***
-- Design and implement the 5-channel RS232 Data-logger with STM32.
-- Design and implement the Ultrasonic Audio Jammer with STM32.
+- Designed a 5-channel RS232 data-logger with STM32, deployed in industrial environments for real-time monitoring.
+- Designed and implemented an Ultrasonic Audio Jammer using STM32.
 
 ***Junior Electronic Engineer | Arad Science & Technique Co | Tehran | Full-time | Jul 2019 - Dec 2020.***
-- Design tea color sorter machine electrical system.
-- Electrical wiring of the sorter machine.
+- Designed and wired the complete electrical system for an automated tea color sorter machine, integrating sensors and actuators.
 
 ***Junior Electronic Design Engineer | Pars Homa Parto | Tehran | Full-time | Aug 2016 - Feb 2017.***
-- Programming the Dot-Matrix LCD For the CWDM Panel with AT91SAM7x (ARM-7).
-- Design Fan Controller Board Schematic and PCB with AT91SAM7x.
+- Developed firmware for a Dot-Matrix LCD display on a CWDM panel using AT91SAM7x (ARM7).
+- Designed schematic and PCB layout for a fan controller board based on AT91SAM7x microcontroller.
 
 
 
@@ -85,6 +88,12 @@ Considering to my experiences and interests, I have gained over the years, I pla
 </table>
 </html>
 
+## *Licenses & Certifications* :
+
+- **Embedded Linux System from Scratch** - Fanavaran Anisa - Granted: Nov.23.2023 - Verification Code: ILH3002469916769
+- **Embedded Linux Development with Buildroot** - Fanavaran Anisa - Granted: Sep.03.2023 - Verification Code: ILH3202409916005
+
+
 ## *Education* :
 
 **Chamran Rasht Technical and Vocational College | 2013 - 2015**
@@ -98,8 +107,8 @@ Considering to my experiences and interests, I have gained over the years, I pla
 
 ## *Soft Skills* :
 
-- **Collaboration** : experience working in a team, and analytical and problem-solving.
-- **Communication** : good ability to document data and communicate with another team.
+- **Collaboration** : I enjoy working closely with my teammates, helping colleagues whenever needed, and combining our efforts to solve complex technical problems together.
+- **Communication** : I focus on writing clear, easy-to-understand technical documentation and help bridge the gap between hardware, firmware, and software teams to keep everyone aligned.
 
 ## *Projects* :
 
@@ -112,15 +121,11 @@ Considering to my experiences and interests, I have gained over the years, I pla
 
 ## *Interest* :
 
-- AI
+- AI & Robotics
 - Image Processing
 - Embedded Linux Based Systems
-- Setar player
 
-## *Licenses & Certifications* :
 
-- **Embedded Linux System from Scratch** - Fanavaran Anisa - Granted: Nov.23.2023 - Verification Code: ILH3002469916769
-- **Embedded Linux Development with Buildroot** - Fanavaran Anisa - Granted: Sep.03.2023 - Verification Code: ILH3202409916005
 </div>
 
 
